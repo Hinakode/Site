@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: white;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto{
+    padding-right: 46%;
+}
+
+.texto2{
+    padding-right: 33%;
+}
+.container{
+
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    
+}
+.englobar{
+    height: 100vh;
+}
+
+.coluna{
+    flex-grow: 1;
+    width: 100%;
+}
+
+.direita{
+    background-color: #0056FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+form{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    font-family: Roboto  ;
+}
+::placeholder{
+    color: #000;
+}
+
+
+form input[type="text"], input[type="password"]{
+    margin: 5px 0;
+    width: 500px;
+    height: 50px;
+    border-radius: 6px;
+    border-color: #000;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.checar {
+    margin-right: 380px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20;
+    font-size: 17px;
+    
+    
+}
+.checar input[type="checkbox"]{
+   margin-right: 6px;
+   width: 20px;
+   height: 20px;
+   
+   cursor: pointer;
+   
+}
+
+
+.cadastro{
+    margin-top: 24px;
+    height: 50px;
+    width: 500px;
+    border-radius: 7px;
+    border: none;
+    background-color: #0056fb;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+p{
+    color: #000;
+    font-weight: bold;
+    user-select: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 5px;
+}
+
+a:hover{
+    color: rgb(4, 0, 255);
+}
+
+.imagem{
+   margin-top: -100px;
+   
+}
+
+h2{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 56px;
+    margin-top: 30px;
+    
+
+}
+
+h4{color: #FFFFFF;
+    font-family: Roboto;
+
+    font-size: 20px;
+    
+margin-top: 30px;
+margin-left: 50px;
+
+}
+
+
+@media (max-width:1243px){
+
+    .texto{
+        padding-right: 14%;
+    }
+
+     .texto2{
+        padding-right: 14%;
+    }
+    .container{
+        flex-direction: column;
+        min-height: 100vh;
+    }
+   
+   img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20%;
+   
+   }
+   
+    
+.checar{
+    width: 40;
+    margin-right: 0;
+
+}
+    .checar input[type="checkbox"]{
+   margin-left: 20px;
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+   
+}
+
+
+form input[type = "text"], input[type = "password"]{
+    width: 360px;
+    height: 40px;
+    margin-left: 20px;}
+    
+    .cadastro{
+        width: 360px;
+        height: 40px;
+    margin-left: 20px;
+    }
+
+ h2{
+    font-size: 32px;
+    margin-right:2%;
+ }
+
+ h4{
+    font-size: 14px;
+ }
+
+ .link{
+    margin-left: 15px;
+ }
+
+ 
+}
